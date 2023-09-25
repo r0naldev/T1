@@ -1,0 +1,48 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+@keyframes blink {
+  60% {
+    opacity: 0;
+  }
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: aliceblue;
+  animation: blink 1s linear infinite;
+}
+.header {
+  text-align: center;
+}
+.name h1 {
+  font-size: 60px;
+}
+.name h2 {
+  font-size: 50px;
+}
+.name h4 {
+  font-size: 30px;
+}
+.name {
+  text-align: center;
+}
+.awards {
+  text-align: center;
+}
+.name-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill {
+  font-size: 20px;
+}
+.margin {
+    padding: 40px 40px;
+}
