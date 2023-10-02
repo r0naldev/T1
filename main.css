@@ -43,8 +43,17 @@ img {
 .skill {
   font-size: 20px;
 }
-.margin {
+@media screen and (min-width: 600px) {
+  .skill {
+    column-count: 2;
+    padding: 0px 90px;
+    column-gap: 110px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .margin {
     padding: 50px 50px;
+  }
 }
 .content {
   padding-left: 30px;
