@@ -49,8 +49,6 @@ img {
     padding: 0px 90px;
     column-gap: 110px;
   }
-}
-@media screen and (min-width: 400px) {
   .margin {
     padding: 50px 50px;
   }
